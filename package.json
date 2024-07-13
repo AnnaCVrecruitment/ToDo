@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+"homepage": "https://AnnaCVrecruitment.github.io/ToDo/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "parcel build src/*.html --public-url /ToDo/",
     "preview": "vite preview"
   },
   "dependencies": {
